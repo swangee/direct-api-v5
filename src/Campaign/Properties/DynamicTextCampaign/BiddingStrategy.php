@@ -1,0 +1,12 @@
+<?php
+namespace vedebel\directv5\Campaign\Properties\DynamicTextCampaign;
+
+use vedebel\directv5\Campaign\Properties\BiddingStrategyBase;
+
+class BiddingStrategy extends BiddingStrategyBase
+{
+    public function __construct(BiddingStrategy\Search $search, BiddingStrategy\Network $network)
+    {
+        parent::__construct($search, $network);
+    }
+}

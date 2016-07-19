@@ -1,0 +1,22 @@
+{
+    "name": "vedebel/directv5-php",
+    "description": "Package that creates some abstraction layer over communicating with Yandex Direct API v5.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vedebel",
+            "email": "hollowj33@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0",
+        "monolog/monolog": "^1.19",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "vedebel\\directv5\\": "src/"
+        }
+    }
+}

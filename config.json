@@ -1,0 +1,11 @@
+{
+  "login": "",
+  "token": "",
+
+  "applicationId": "",
+  "applicationPassword": "",
+
+  "endpoint": "https://api.direct.yandex.com/json/v5/",
+  "fallbackEndpoint": "https://api.direct.yandex.ru/live/v4/json/",
+  "sandboxEndpoint": "https://api-sandbox.direct.yandex.com/json/v5/"
+}
